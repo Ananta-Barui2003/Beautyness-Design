@@ -1,0 +1,1613 @@
+/* ======================1280px start================== */
+@media only screen and (max-width: 1366px) {
+    .header .wraper .logo_cont .head_cont p {
+        display: none;
+    }
+/* ======================1280px end================== */ 
+}
+/* =====================1199px start===================== */
+@media only screen and (max-width: 1199px) {
+    .header .wraper .logo_cont .head_cont {
+        padding-left: 30px;
+    }
+    .header .wraper .menu_bar li {
+        padding-right: 20px;
+    }
+    .header .wraper .menu_bar .rest_btn a {
+        font-size: 12px;
+        padding: 12px 22px;
+    }
+/* =====================1199px end===================== */
+}
+
+
+
+/* ======================1024px start==================== */
+@media only screen and (max-width: 1024px) {
+   
+    .banner {
+        padding: 100px 0;
+    }
+    .banner .wraper .bnr_content {
+        padding-right: 30px;
+    }
+
+    .category .wraper {
+        margin: 0 -15px;
+    }
+    .category .wraper .inner {
+        padding: 0 15px;
+    }
+
+    .about_us .wraper .left {
+        padding-right: 40px;
+    }
+    .about_us .wraper .right {
+        padding-left: 30px;
+    }
+    .about_us .wraper .right .image_2 {
+        top: 0;
+        right: 0;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .our_service .wraper {
+        margin-bottom: 45px;
+    }
+    .our_service .wraper:last-child {
+        margin-bottom: 0;
+    }
+    .our_service .wraper .left_iner::before {
+        display: none;
+    }
+    .our_service .wraper {
+        align-items: center;
+    }
+    .our_service .wraper:nth-child(odd) {
+        align-items: center;
+    }
+    .our_service .wraper .right_iner .buton {
+        text-align: center;
+    }
+    .our_service .wraper .left_iner {
+        padding-right: 25px;
+    }
+    .our_service .wraper .right_iner {
+        padding-left: 25px;
+    }
+    .our_service .wraper:nth-child(odd) .left_iner {
+        padding-left: 25px;
+    }
+    .our_service .wraper:nth-child(odd) .right_iner {
+        padding-right: 25px;
+        padding-bottom: 0;
+    }
+
+    .testimonial .testi_slide .item_box .top {
+        padding: 44px 22px;
+    }
+
+    .discount .wraper .right_box .form {
+        padding: 45px;
+    }
+
+    .our_blog .wraper .blog_detl .date span {
+        font-size: 11px;
+    }
+    .our_blog .wraper .blog_detl .date figure {
+        width: 15px;
+    }
+    .our_blog .wraper .blog_detl a {
+        font-size: 20px;
+    }
+
+    .footer .wraper .ftr_item:nth-child(3) {
+        padding-right: 15px;
+    }
+
+    .collection .wraper .user_box {
+        padding: 30px 20px;
+    }
+    .collection .wraper .left_panel {
+        padding-right: 15px;
+    }
+    .collection .wraper .right_panel {
+        padding-left: 30px;
+    }
+
+    .page_not {
+        padding: 200px 0;
+    }
+
+    .footer .wraper .ftr_item .wrap_box .left {
+        padding-right: 15px;
+    }
+/* ======================1024px end==================== */
+}
+
+/* ======================991px start==================== */
+@media only screen and (max-width: 991px) {
+
+    /* ===============mobail-nav============== */
+        .header .wraper .logo_cont .head_cont {
+            display: none;
+        }
+        .header label {
+            display: block;
+            height: 39px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header .wraper {
+            display: block;
+        }
+        .header .wraper .menu_bar {
+            display: block;
+            position: fixed;
+            top: 110px;
+            right: -100%;
+            width: 100%;
+            height: 100vh;
+            background: #caeaf9;
+            z-index: 999;
+            transition: all 0.2s linear;
+            padding-top: 50px;
+        }
+        .header .wraper .menu_bar li {
+            padding-right: 0;
+            text-align: center;
+            line-height: 45px;
+        }
+        .header .wraper .menu_bar .menu_item a {
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding: 10px 30px;
+        }
+
+        .header label .line {
+            transition: all 0.2s linear;
+        }
+        #check:checked ~ .wraper .menu_bar {
+            right: 0;
+        }
+        #check:checked ~ label .line:first-child {
+            transform: rotate(-45deg) translate(-1px, 1px);
+            margin: 0;
+        }
+        #check:checked ~ label .line:last-child {
+            transform: rotate(45deg) translate(-2px, -1px);
+            margin: 0;
+        }
+        #check:checked ~ label .line:nth-child(2) {
+            display: none;
+        }
+    /* ===============mobail-nav============== */
+
+
+    .titel h6 {
+        margin-bottom: 0;
+    }
+    .titel h2 {
+        font-size: 30px !important;
+        line-height: 1.3 !important;
+    }
+    .titel p {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+    .banner .wraper {
+        row-gap: 35px;
+    }
+    .banner .wraper .right img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .banner .right_shape {
+        display: none;
+    }
+    .banner .wraper .bnr_content {
+        text-align: center;
+        padding-right: 0;
+    }
+    .banner .wraper .bnr_content h1 {
+        font-size: 55px;
+        line-height: 1.2;
+    }
+    .banner .wraper .bnr_content p {
+        font-size: 17px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+
+    .category {
+        margin: 45px 0;
+    }
+    .category .wraper {
+        justify-content: center;
+        row-gap: 35px;
+    }
+    .category .wraper .inner .catg_detl {
+        text-align: center;
+    }
+    .category .wraper .inner .catg_detl p {
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .about_us {
+        padding: 45px 0;
+        margin-top: 45px;
+    }
+    .about_us .wraper .left {
+        padding-right: 20px;
+    }
+    .about_us .wraper .right {
+        padding-left: 20px;
+    }
+    .about_us .wraper .right .main_img {
+        padding-top: 25px;
+        padding-right: 25px;
+    }
+    .about_us .wraper .left .titel h2 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    .about_us .wraper .left .titel p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .about_us .wraper .left .icon_text .item {
+        padding: 20px 15px;
+    }
+    .about_us .wraper .left .icon_text .item img {
+        width: 45px;
+        height: 45px;
+    }
+    .about_us .wraper .left .icon_text .item h5 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .our_service {
+        margin: 45px 0;
+    }
+    .our_service .titel {
+        margin-bottom: 25px;
+    }
+    .our_service .wraper .left_iner {
+        padding-right: 15px;
+    }
+    .our_service .wraper .right_iner {
+        padding-left: 15px;
+    }
+    .our_service .wraper .right_iner .srv_price {
+        padding-bottom: 10px;
+    }
+    .our_service .wraper .right_iner .srv_price .wrap h5 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .our_service .wraper .right_iner .srv_price .wrap .line {
+        border-bottom: 1px dashed #141414;
+    }
+    .our_service .wraper .right_iner .srv_price .wrap .price {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .our_service .wraper .right_iner .srv_price p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .our_service .wraper {
+        margin-bottom: 30px;
+    }
+
+    .testimonial {
+        padding: 45px 0;
+    }
+    .testimonial .testi_slide .item_box .top {
+        padding: 30px 15px;
+    }
+    .testimonial .testi_slide .item_box .bottom {
+        padding: 20px 15px;
+    }
+    .testimonial .testi_slide .item_box .bottom .profile .user_img img {
+        width: 55px;
+        height: 55px;
+    }
+    .testimonial .testi_slide .item_box .bottom .shape_icon img {
+        width: 50px;
+        height: 44px;
+    }
+    .testimonial .testi_slide .item_box .top p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .benifits {
+        padding: 45px 0;
+    }
+    .benifits .wraper {
+        margin: 0 -15px;
+    }
+    .benifits .wraper .beni_box {
+        padding: 0 15px;
+    }
+    .benifits .wraper .benifit_detl {
+        text-align: center;
+    }
+    .benifits .wraper .benifit_detl .done_icon {
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .benifits .wraper .benifit_detl h4 {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-bottom: 6px;
+    }
+    .benifits .wraper .benifit_detl p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .discount {
+        padding: 45px 0;
+    }
+    .discount .wraper {
+        row-gap: 35px;
+    }
+    .discount .wraper .titel {
+        text-align: center;
+    }
+    .discount .wraper .titel p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .discount .wraper .left_box {
+        padding-right: 15px;
+    }
+    .discount .wraper .discount_add {
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .our_blog {
+        padding: 40px 0;
+    }
+    .our_blog .wraper {
+        justify-content: center;
+        row-gap: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .our_blog .wraper .blog_detl {
+        padding: 20px 15px;
+    }
+    .our_blog .wraper .blog_detl .date span {
+        font-size: 10px;
+    }
+    .our_blog .wraper .blog_detl .date figure {
+        width: 12px;
+    }
+    .our_blog .wraper .blog_detl a {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .our_blog .wraper .blog_detl p {
+        font-size: 15px;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+    .footer .footer_wraper {
+        padding-bottom: 30px;
+    }
+    .footer .footer_wraper .logo {
+        max-width: 220px;
+    }
+    .footer .footer_wraper .socal_logo li a {
+        width: 40px;
+        height: 40px;
+    }
+    .footer .wraper {
+        justify-content: center;
+        row-gap: 35px;
+    }
+
+    .footer .wraper .ftr_item:nth-child(3) {
+        text-align: center;
+        order: 1;
+        margin: 0 auto;
+    }
+    .footer .wraper .ftr_item:nth-child(2) {
+        text-align: center;
+        order: 3;
+    }
+    .footer .wraper .ftr_item:first-child {
+        text-align: center;
+        order: 2;
+    }
+    .footer .wraper .ftr_item:last-child {
+        text-align: center;
+        order: 4;
+    }
+
+    .footer .wraper .ftr_item .heading {
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .footer .wraper .ftr_item .menu_item li a {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .footer .wraper .ftr_item .wrap_box .left span {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .footer .wraper .ftr_item .wrap_box .right a, .footer .wraper .ftr_item .wrap_box .right p {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .footer .wraper .ftr_item .wrap_box {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer .wraper .ftr_item .open_date li {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    /* ./././././././././. about page css start.//././././././././././ */
+    .banner_two {
+        padding: 45px 0;
+    }
+    .banner_two .baner_cont h5 {
+        line-height: 1.2;
+    }
+    .banner_two .baner_cont h1 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .our_value {
+        padding: 45px 0;
+    }
+    .our_value .main_box {
+        padding-top: 30px;
+    }
+    .our_value .main_box .value_wrap {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .our_value .main_box .value_wrap .icon_img img {
+        width: 80px;
+        height: 80px;
+    }
+    .our_value .main_box .value_wrap .value_detl h5 {
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+    .our_value .main_box .value_wrap .value_detl p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .abt_about {
+        padding: 45px 0;
+    }
+    .abt_about .wraper .right_box h2 {
+        font-size: 32px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+    .abt_about .wraper .right_box p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .abt_about .wraper::before {
+        top: 50px;
+    }
+
+    .our_expert {
+        padding: 45px 0;
+    }
+    .our_expert .wraper {
+        justify-content: center;
+        row-gap: 35px;
+    }
+
+    .share_us {
+        padding: 45px 0 0 0;
+    }
+    .share_us .share_wrap .left .titel h2 {
+        margin-bottom: 10px;
+    }
+    /* ./././././././././. about page css end.//././././././././././ */
+
+    /* !!!!!!!!!!!!!service-single page css start!!!!!!!!!!!!!! */
+    .includes .wraper .titel {
+        padding-top: 45px;
+        text-align: center;
+    }
+    .includes .wraper .method h3 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .includes .wraper .method {
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    .includes .wraper .method .method_wrap {
+        flex-direction: column;
+    }
+    .includes .wraper .method .method_wrap .meth_detl {
+        padding-left: 0;
+    }
+    .includes .wraper .method .method_wrap .meth_detl h5 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .includes .wraper .method .method_wrap .meth_detl p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .includes .wraper .video_img img {
+        height: auto;
+    }
+    .includes .wraper .video_img .vid_icon {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+
+    .membership {
+        margin: 45px 0;
+    }
+    .membership .tetel h6 {
+        line-height: 1.2;
+    }
+    .membership .tetel h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .membership .tetel {
+        margin-bottom: 25px;
+    }
+    .membership .memb_wrap {
+        row-gap: 30px;
+    }
+    .membership .memb_wrap .card_box .left h4 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .membership .memb_wrap .card_box .left .card_detl li {
+        margin-bottom: 10px;
+    }
+    .membership .memb_wrap .card_box .left .card_detl li:last-child {
+        margin-bottom: 0;
+    }
+    .membership .memb_wrap .card_box .left .card_detl li p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .membership .memb_wrap .card_box .left .card_detl li p i {
+        font-size: 20px;
+        padding-right: 15px;
+    }
+    .membership .memb_wrap .card_box .left .card_btn a {
+        font-size: 14px;
+        padding: 16px 36px;
+        margin-top: 20px;
+    }
+    .membership .memb_wrap .card_box .right .price h3 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+    .membership .memb_wrap .card_box .card_text {
+        bottom: 80px;
+        right: -30px;
+    }
+    .membership .memb_wrap .card_box .card_text h4 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .single_appoint {
+        padding: 45px 0;
+    }
+    .single_appoint .titel {
+        padding-bottom: 25px;
+    }
+    .single_appoint .single_form {
+        padding: 40px 35px;
+    }
+    .single_appoint .single_form .privicy {
+        padding-top: 25px;
+    }
+
+    .service_single .benifits {
+        padding: 45px 0;
+    }
+    /* !!!!!!!!!!!!!service-single page css end!!!!!!!!!!!!!! */
+
+    /* ***************team-single page start*************** */
+    .single_expert {
+        margin: 45px 0;
+    }
+    .single_expert .wraper .right_item .titel h2 {
+        margin-bottom: 15px;
+    }
+    .single_expert .wraper .left_item {
+        padding-right: 20px;
+    }
+    .single_expert .wraper .right_item {
+        padding-left: 20px;
+    }
+    .single_expert .wraper .right_item .bottom .cont_detl .icon i {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .single_expert .wraper .right_item .bottom .cont_detl .link a {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-left: 20px;
+    }
+    .single_expert .wraper .right_item .bottom .social_account {
+        margin-top: 20px;
+    }
+    /* ***************team-single page start*************** */
+
+    /* //////////////contact-page start////////////// */
+    .get_touch {
+        margin-top: 75px;
+        margin-bottom: 45px;
+    }
+    .get_touch .wraper .touch_left {
+        padding-right: 40px;
+    }
+    .get_touch .wraper .touch_right {
+        padding-left: 30px;
+    }
+    .get_touch .wraper .touch_right .titel h2 {
+        margin-bottom: 10px;
+    }
+    .get_touch .wraper .touch_right .titel p {
+        margin-bottom: 25px;
+    }
+    .get_touch .wraper .touch_left .touch_image::before {
+        top: -25px;
+        right: -25px;
+    }
+    .get_touch .wraper .touch_right .contact_detail .logo i {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .get_touch .wraper .touch_right .contact_detail .detl_text h5 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .get_touch .wraper .touch_right .contact_detail .detl_text p, .get_touch .wraper .touch_right .contact_detail .detl_text a {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .get_touch .wraper .touch_right .contact_detail .detl_text {
+        padding-left: 20px;
+    }
+
+    .single_appoint .titel h2 {
+        margin-bottom: 10px;
+    }
+    /* //////////////contact-page start////////////// */
+
+    /* ==========blog-page start============= */
+    .blog-page .our_blog .wraper {
+        row-gap: 30px;
+    }
+
+    .blog-single .banner_two {
+        padding-top: 60px;
+        padding-bottom: 200px;
+    }
+
+    .collection {
+        margin-bottom: 45px;
+    }
+    .collection .main_img {
+        margin-top: -150px;
+    }
+    .collection .wraper {
+        row-gap: 30px;
+    }
+    .collection .wraper .user_box {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 30px 40px;
+    }
+    .collection .wraper .user_box .wrap {
+        justify-content: center;
+    }
+    .collection .wraper .user_box p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .collection .wraper .user_box .socal_acc {
+        justify-content: center;
+    }
+    .collection .wraper .right_panel {
+        padding-left: 15px;
+    }
+    .collection .wraper .right_panel .text_cnt {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .collection .wraper .right_panel h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+    .collection .wraper .right_panel .cont_img {
+        margin: 30px 0;
+    }
+    .collection .wraper .right_panel .sub_titel h3 {
+        line-height: 1.2;
+        text-align: center;
+    }
+    .collection .wraper .right_panel .sub_titel p {
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .collection .wraper .right_panel .highlight_text p {
+        text-align: center;
+    }
+    .collection .wraper .right_panel .detl_list li p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* ==========blog-page end============= */
+
+    /* ----------------location-page start--------------- */
+    .location-page .banner_two {
+        padding: 70px 0;
+    }
+    .location {
+        padding-top: 70px;
+        padding-bottom: 45px;
+    }
+    .location .wraper {
+        margin-bottom: 50px;
+    }
+    .location .wraper .left .locat_img {
+        padding: 30px 30px 0 0;
+    }
+    .location .wraper .left .locat_img::before {
+        width: calc(100% - 30px);
+    }
+    .location .wraper:nth-child(odd) .right {
+        padding-left: 60px;
+    }
+    .location .wraper:nth-child(even) .right {
+        padding-right: 60px;
+    }
+    .location .wraper:nth-child(even) .left {
+        padding-right: 25px;
+    }
+    .location .wraper .locat_detl .contact_detl .icon i {
+        width: 48px;
+        height: 48px;
+    }
+    .location .wraper .locat_detl .contact_detl .text {
+        padding-left: 20px;
+    }
+    .location .wraper .locat_detl .contact_detl .text h5 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .location .wraper .locat_detl .contact_detl .text p, .location .wraper .locat_detl .contact_detl .text a {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    /* ----------------location-page end--------------- */
+
+    /* ***************error-page start************** */
+    .page_not {
+        padding: 100px 0;
+    }
+    .page_not .titel .error_img {
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+    .page_not .titel h2 {
+        margin-bottom: 10px;
+    }
+    .page_not .buton a {
+        margin-top: 25px;
+    }
+    /* ***************error-page end************** */
+
+    .pass_form {
+        padding: 50px 0;
+    }
+    .pass_form .password .form .pass_inp::placeholder {
+        font-size: 16px;
+    }
+    .pass_form .password {
+        padding: 50px 60px;
+    }
+
+    .versions {
+        padding: 50px 0;
+    }
+    .versions .main_box .vers_wrap {
+        padding: 70px 90px;
+    }
+
+    .licenses {
+        padding: 45px 0;
+    }
+    .licenses .titel {
+        margin-bottom: 25px;
+    }
+    .licenses .detail_box h4 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .licenses .detail_box h4 span,  .licenses .detail_box p{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .licenses .detail_box {
+        margin-bottom: 25px;
+    }
+    .licenses .font_detl h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .licenses .font_detl p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+/* ======================991px end==================== */
+}
+
+
+/* ======================767px start==================== */
+@media only screen and (max-width: 767px) {
+    .titel h2 {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+    }
+    .titel h6 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .banner {
+        padding: 45px 0;
+    }
+    .banner .wraper .right img {
+        height: 450px;
+    }
+    .banner .wraper .bnr_content h1 {
+        font-size: 42px;
+    }
+    .banner .wraper .bnr_content .buton a {
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    .category .wraper .inner .catg_detl h4 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .about_us .wraper  {
+        row-gap: 30px;
+    }
+    .about_us .wraper .left {
+        padding-right: 0;
+    }
+    .about_us .wraper .right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about_us .wraper .left .titel {
+        text-align: center;
+    }
+    .about_us .wraper .right .image_1 {
+        height: 400px;
+        object-fit: cover;
+    }
+    .about_us .wraper .right .image_2 {
+        height: 420px;
+        object-fit: cover;
+    }
+
+    .our_service .wraper {
+        row-gap: 30px;
+    }
+    .our_service .wraper .left_iner {
+        padding-right: 0;
+    }
+    .our_service .wraper .right_iner {
+        padding-left: 0;
+    }
+    .our_service .wraper:nth-child(odd) .right_iner {
+        padding-right: 0;
+    }
+    .our_service .wraper .left_iner img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .our_service .wraper:nth-child(odd) .left_iner {
+        padding-left: 0;
+    }
+
+    .testimonial .titel {
+        margin-bottom: 30px;
+    }
+    .testimonial .testi_slide .item_box .top {
+        padding: 30px 30px;
+    }
+    .testimonial .testi_slide .item_box .top p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .benifits .wraper .benifit_detl h4 {
+        font-size: 19px;
+        line-height: 1.2;
+    }
+    .footer .wraper .ftr_item {
+        text-align: center;
+    }
+    .footer {
+        padding-top: 40px;
+    }
+    .footer .wraper {
+        padding: 30px 0;
+    }
+    .footer .footer_wraper {
+        padding-bottom: 30px;
+    }
+    .footer .wraper .ftr_item .wrap_box {
+        justify-content: center;
+    }
+    .footer .copy_right .copy_item {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    /* ################about page css start############### */
+    .banner_two .baner_cont h1 {
+        font-size: 38px;
+    }
+    .our_value .main_box .value_wrap {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .our_value .main_box .value_wrap .icon_img img {
+        width: 65px;
+        height: 65px;
+    }
+    .our_value .main_box .value_wrap .value_detl {
+        padding-left: 0;
+        text-align: center;
+    }
+    .abt_about .wraper::before {
+        height: 100%;
+    }
+    .abt_about .wraper {
+        row-gap: 35px;
+    }
+    .abt_about .wraper .right_box {
+        text-align: center;
+    }
+    .abt_about .wraper .right_box h2 {
+        font-size: 29px;
+    }
+
+    .our_expert .wraper .inner_item .expert_detl {
+        padding: 20px 10px;
+    }
+    .our_expert .wraper .expert_detl h4 {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .our_expert .wraper .inner_item .expert_detl h6 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .our_expert .wraper .inner_item .expert_detl p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .share_us .share_wrap {
+        row-gap: 30px;
+    }
+    .share_us .share_wrap .left .titel {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .share_us .share_wrap .left .titel h2 span {
+        display: inline-block;
+    }
+    .share_us .share_wrap .left .image img, .share_us .share_wrap .right .image img {
+        height: 400px;
+    }
+    .share_us .buton a {
+        margin-top: 35px;
+    }
+    /* ################about page css start############### */
+
+    /* !!!!!!!!!!!!service-single page css start!!!!!!!!!!!! */
+    .discount .wraper .right_box .form input, .discount .wraper .right_box .form textarea, 
+    .single_appoint .single_form .form input, .single_appoint .single_form .form textarea {
+        padding-left: 30px;
+    }
+    .discount .wraper .right_box .form .name, .single_appoint .single_form .form .name {
+        background-size: 16px;
+        background-position-x: 8px;
+    }
+    .discount .wraper .right_box .form .email, .single_appoint .single_form .form .email {
+        background-size: 16px;
+        background-position-x: 8px;
+    }
+    .discount .wraper .right_box .form .phone, .single_appoint .single_form .form .phone {
+        background-size: 16px;
+        background-position-x: 8px;
+    }
+    .discount .wraper .right_box .form .service, .single_appoint .single_form .form .service {
+        background-size: 16px;
+        background-position-x: 8px;
+    }
+    .discount .wraper .right_box .form textarea, .single_appoint .single_form .form textarea {
+        background-size: 16px;
+        background-position-x: 8px;
+        background-position-y: 17px;
+        padding-top: 10px;
+    }
+    .discount .wraper .right_box .form input, .discount .wraper .right_box .form textarea, .single_appoint .single_form .form input, .single_appoint .single_form .form textarea {
+        height: 50px;
+    }
+
+    .membership .tetel h2 {
+        font-size: 28px;
+    }
+    /* !!!!!!!!!!!!service-single page css start!!!!!!!!!!!! */
+
+    /* ****************team-single page start**************** */
+    .single_expert .wraper {
+        row-gap: 30px;
+    }
+    .single_expert .wraper .left_item img {
+        height: 450px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .single_expert .wraper .right_item .titel {
+        text-align: center;
+    }
+    .single_expert .wraper .right_item .bottom .cont_detl {
+        justify-content: center;
+    }
+    .single_expert .wraper .right_item .bottom .buton {
+        text-align: center;
+    }
+    .single_expert .wraper .right_item .bottom .social_account {
+        justify-content: center;
+    }
+    /* ****************team-single page end**************** */
+
+    /* //////////////contact-page start////////////// */
+    .get_touch .wraper {
+        row-gap: 30px;
+    }
+    .get_touch .wraper .touch_left .touch_image img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .get_touch .wraper .touch_right .titel {
+        text-align: center;
+    }
+    .get_touch .wraper .touch_right .contact_detail {
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 20px;
+    }
+    .get_touch .wraper .touch_right .contact_detail .detl_text {
+        text-align: center;
+        padding-left: 0;
+    }
+    /* //////////////contact-page end////////////// */
+
+    /* %%%%%%%%%% blog-single page start %%%%%%%%%%% */
+    .collection .wraper .user_box {
+        padding: 30px 20px;
+    }
+    .collection .wraper .right_panel .text_cnt {
+        text-align: center;
+    }
+    .collection .wraper .right_panel h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .collection .wraper .right_panel .box span {
+        font-size: 16px;
+        line-height: 1.4;
+    } 
+    .collection .wraper .right_panel .sub_titel h3 {
+        font-size: 28px;
+    }
+
+    .collection .wraper .right_panel .highlight_text {
+        padding: 25px 20px;
+        border-left: 15px solid #7A9CA5;
+        margin: 30px 0;
+    }
+    .collection .wraper .right_panel .highlight_text p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    /* %%%%%%%%%% blog-single page end %%%%%%%%%%% */
+
+    /* ---------------location-page start-------------- */
+    .location-page .banner_two {
+        padding: 50px 0;
+    }
+    .location {
+        padding: 45px 0;
+    }
+    .location .wraper {
+        margin-bottom: 30px;
+        row-gap: 40px;
+    }
+    .location .wraper .left .locat_img img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .location .wraper .left .locat_img::before {
+        top: -0;
+        right: -0;
+    }
+    .location .wraper .locat_detl .titel {
+        text-align: center;
+    }
+    .location .wraper .right {
+        padding-left: 15px;
+    }
+    .location .wraper:nth-child(odd) .right {
+        padding-left: 15px;
+    }
+    .location .wraper:nth-child(even) .right {
+        padding-right: 15px;
+    }
+    .location .wraper:nth-child(even) .left {
+        padding-right: 15px;
+    }
+    .location .wraper .locat_detl .contact_detl {
+        margin-bottom: 20px;
+    }
+    .location .wraper .locat_detl .contact_detl .text {
+        padding-left: 15px;
+    }
+    .location .wraper .locat_detl .contact_detl .text h5 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+    .location .wraper .locat_detl .contact_detl .text p, .location .wraper .locat_detl .contact_detl .text a {
+        font-size: 14px;
+    }
+    .location .wraper .locat_detl .buton {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .location .wraper .locat_detl .contact_detl {
+        margin-bottom: 20px;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .location .wraper .locat_detl .contact_detl .text {
+        padding-left: 0;
+        text-align: center;
+    }
+    /* ---------------location-page end-------------- */
+
+    /* ***************error page start************* */
+    .page_not .titel .error_img {
+        max-width: 190px;
+    }
+    /* ***************error page end************* */
+
+    .pass_form .password {
+        padding: 30px;
+    }
+    .pass_form .password .form {
+        padding: 0 25px;
+        margin-top: 30px;
+    }
+
+    .versions .main_box .vers_wrap {
+        padding: 35px 40px;
+    }
+    .versions .main_box .vers_wrap .left span {
+        font-size: 25px;
+        line-height: 1.2;
+        padding: 18px 22px;
+    }
+    .versions .main_box .vers_wrap .right p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .licenses .titel {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .licenses .detail_box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .licenses .detail_box h4 {
+        font-size: 22px;
+    }
+    .licenses .detail_box h4 span, .licenses .detail_box p {
+        font-size: 15px;
+    }
+    .licenses .font_detl h2 {
+        font-size: 28px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .licenses .font_detl p {
+        font-size: 15px;
+        text-align: center;
+    }
+/* ======================767px end==================== */
+}
+
+
+
+/* ======================575px start==================== */
+@media only screen and (max-width: 575px) {
+    .membership .memb_wrap .card_box {
+        flex-direction: column-reverse;
+    }
+    .membership .memb_wrap .card_box .right .price {
+        text-align: center;
+        padding: 15px 15px;
+    }
+    .membership .memb_wrap .card_box .right .price h3 {
+        font-size: 30px;
+    }
+    .membership .memb_wrap .card_box .right .price p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .single_appoint .single_form .form input, .single_appoint .single_form .form textarea {
+        width: 100%;
+    }
+    .single_appoint .single_form {
+        padding: 25px 15px;
+    }
+    .single_appoint .single_form .privicy span {
+        font-size: 15px;
+    }
+
+    .single_expert .wraper .left_item img {
+        height: auto;
+    }
+
+    .get_touch .wraper .touch_left .touch_image img {
+        height: auto;
+    }
+    .get_touch {
+        margin-top: 60px;
+    }
+
+    .pass_form {
+        padding: 40px 0;
+    }
+/* ======================575px end==================== */
+}
+
+
+
+/* ======================480px start==================== */
+@media only screen and (max-width: 480px) {
+    .banner .wraper .right img {
+        height: auto;
+    }
+    .banner .wraper .bnr_content h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .banner .wraper .bnr_content p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .banner .wraper .bnr_content span {
+        font-size: 12px;
+    }
+    .header {
+        padding: 25px 0;
+    }
+    .header .wraper .logo_cont .logo {
+        max-width: 160px;
+    }
+    .header .wraper .menu_bar {
+        top: 82px;
+    }
+    .header label .line {
+        width: 25px;
+        height: 3px;
+        margin-bottom: 4px;
+    }
+    .titel h2 {
+        font-size: 25px !important;
+    }
+
+    .about_us .wraper .left .icon_text {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin-top: 30px;
+    }
+    .about_us .wraper .left .icon_text .item {
+        width: 100%;
+    }
+
+    .about_us .wraper .right {
+        padding-right: 0;
+    }
+    .about_us .wraper .right .image_1 {
+        height: auto;
+    }
+    .about_us .wraper .right .image_2 {
+        display: none;
+    }
+
+    .our_service .wraper .left_iner img {
+        height: auto;
+    }
+
+    .testimonial .testi_slide .item_box .top {
+        padding: 20px 15px;
+    }
+    .testimonial .testi_slide .item_box .top p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .testimonial .testi_slide .item_box .bottom {
+        padding: 20px 15px;
+    }
+    .testimonial .testi_slide .item_box .bottom .profile .user_img img {
+        width: 44px;
+        height: 44px;
+    }
+    .testimonial .testi_slide .item_box .bottom .profile .user_detl img {
+        width: 60px;
+        height: auto;
+    }
+    .testimonial .testi_slide .item_box .bottom .profile .user_detl h5 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .testimonial .testi_slide .item_box .bottom .profile .user_detl p {
+        font-size: 12px;
+    }
+    .testimonial .testi_slide .item_box .bottom .shape_icon img {
+        width: 26px;
+        height: 30px;
+    }
+
+    .discount .wraper .discount_add {
+        flex-direction: column;
+    }
+    .discount .wraper .discount_add .cont_detl {
+        background: #fff;
+        padding: 20px 20px;
+    }
+    .discount .wraper .right_box .form {
+        padding: 15px;
+    }
+
+    .our_blog .wraper .blog_detl {
+        padding: 20px 15px;
+    }
+    .our_blog .wraper .blog_detl a {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .our_blog .wraper .blog_detl p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+    .footer .footer_wraper {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    /* ###################about page css start################ */
+    .banner_two .baner_cont h1 {
+        font-size: 30px;
+    }
+
+    .abt_about .wraper .right_box h6 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .abt_about .wraper .right_box h2 {
+        font-size: 24px;
+    }
+
+    .share_us .share_wrap .left .image img, .share_us .share_wrap .right .image img {
+        height: auto;
+    }
+    /* ###################about page css end################ */
+
+    /* !!!!!!!!!!!!!!!service-single page css start!!!!!!!!!!!! */
+    .includes .wraper .video_img .vid_icon {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .membership .tetel h2 {
+        font-size: 25px;
+    }
+    .membership .memb_wrap .card_box .left {
+        padding: 20px;
+    }
+    /* !!!!!!!!!!!!!!!service-single page css start!!!!!!!!!!!! */
+
+    /* +++++++++++++blog-single page start+++++++++++++++ */
+    .blog-single .banner_two {
+        padding-top: 45px;
+        padding-bottom: 140px;
+    }
+    .collection .main_img {
+        margin-top: -100px;
+        margin-bottom: 40px;
+    }
+    .collection .wraper .user_box .wrap {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .collection .wraper .user_box .wrap .user_dtl {
+        padding-left: 0;
+        text-align: center;
+    }
+    .collection .wraper .user_box .wrap .user_dtl h4 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+    .collection .wraper .user_box .wrap .user_dtl h6 {
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+    .collection .wraper .user_box .wrap .user_dtl span {
+        font-size: 11px;
+    }
+    .collection .wraper .user_box p {
+        font-size: 15px;
+    }
+    .collection .wraper .user_box {
+        padding: 20px 10px;
+    }
+    .collection .wraper .user_box .wrap .user_img img {
+        width: 65px;
+        height: 65px;
+    }
+    .collection .wraper .user_box .socal_acc {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .collection .wraper .user_box .socal_acc h5 {
+        padding-right: 0;
+    }
+
+    .collection .wraper .right_panel h2 {
+        font-size: 25px;
+    }
+    .collection .wraper .right_panel .cont_img {
+        margin: 20px 0;
+    }
+    .collection .wraper .right_panel .cont_img p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .collection .wraper .right_panel .sub_titel h3 {
+        font-size: 25px;
+    }
+    /* +++++++++++++blog-single page end+++++++++++++++ */
+
+    /* -------------location-page start------------ */
+    .location .wraper .left .locat_img img {
+        height: auto;
+    }
+    .location .wraper {
+        row-gap: 30px;
+    }
+    .location .wraper .left .locat_img {
+        padding: 20px 20px 0 0;
+    }
+    .location .wraper .left .locat_img::before {
+        width: calc(100% - 20px);
+    }
+    /* -------------location-page end------------ */
+
+    .page_not {
+        padding: 60px 0;
+    }
+    .page_not .titel p {
+        font-size: 15px !important;
+    }
+
+    .pass_form .password {
+        padding: 30px 15px;
+    }
+    .pass_form .password .form {
+        padding: 0;
+    }
+    .pass_form .password .form .pass_inp {
+        height: 55px;
+    }
+    .pass_form .password .form .sub_btn {
+        height: 55px;
+    }
+
+    .versions {
+        padding: 40px 0;
+    }
+    .versions .main_box .vers_wrap {
+        padding: 25px 30px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .versions .main_box .vers_wrap .left span {
+        font-size: 20px;
+        padding: 12px 15px;
+    }
+    .versions .main_box .vers_wrap .right p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .versions .main_box .vers_wrap .right {
+        padding-left: 0;
+    }
+
+    .licenses {
+        padding: 35px 0;
+    }
+/* ======================480px end==================== */
+}
