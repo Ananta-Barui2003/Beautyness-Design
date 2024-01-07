@@ -159,9 +159,12 @@
             padding-top: 50px;
         }
         .header .wraper .menu_bar li {
-            padding-right: 0;
+            padding: 10px 0;
             text-align: center;
             line-height: 45px;
+        }
+        .header .wraper .menu_bar .socal_icon {
+            display: none;
         }
         .header .wraper .menu_bar .menu_item a {
             font-size: 16px;
@@ -1363,7 +1366,7 @@
         max-width: 160px;
     }
     .header .wraper .menu_bar {
-        top: 82px;
+        top: 80px;
     }
     .header label .line {
         width: 25px;
