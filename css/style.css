@@ -1697,13 +1697,10 @@ ul {
 }
 @keyframes circle {
     0% {
-        box-shadow: 0 0 0 0 #fff; box-shadow: 0 0 0 0 #fff; box-shadow: 0 0 0 0 #fff;
-    }
-    50% {
-        box-shadow: 0 0 0 5px #ffffffcb; box-shadow: 0 0 0   15px #ffffffcb;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
     }
     100% {
-        box-shadow: 0 0 0 10px #ffffff00; box-shadow: 0 0 0 30px #ffffff00;
+        box-shadow: 0 0 0 15px #ffffff00, 0 0 0 30px #ffffff00;
     }
 }
 .includes .wraper .video_img .vid_icon:hover {
