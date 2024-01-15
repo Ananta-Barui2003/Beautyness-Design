@@ -6,17 +6,26 @@ $('.testi_slide').slick({
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    dots: true,
     prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-arrow-left-long"></i></button>',
     nextArrow: '<button class="slide-arrow next-arrow"><i class="fa-solid fa-arrow-right-long"></i></button>',
     responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          dots: true
+        }
+      },
+
       {
         breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: false,
           centerPadding: '0',
+          dots: true,
           slidesToShow: 1
         }
       },
@@ -26,6 +35,7 @@ $('.testi_slide').slick({
           arrows: false,
           centerMode: false,
           centerPadding: '0',
+          dots: true,
           slidesToShow: 1
         }
       }
