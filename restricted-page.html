@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restricted Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -65,8 +66,8 @@
     <section class="banner_two">
         <div class="container">
             <div class="baner_cont">
-                <h5>PASSWORD PROTECTED</h5>
-                <h1>Restricted Page</h1>
+                <h5 data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">PASSWORD PROTECTED</h5>
+                <h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">Restricted Page</h1>
             </div>
         </div>
     </section>
@@ -74,13 +75,13 @@
         <div class="container">
             <div class="password">
                 <div class="titel text-center">
-                    <h6>Enter Password</h6>
-                    <h2>Password Protected</h2>
-                    <p>This page is password protected. If you are the website admin, or have access to this page, please type your password below.</p>
+                    <h6 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Enter Password</h6>
+                    <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Password Protected</h2>
+                    <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">This page is password protected. If you are the website admin, or have access to this page, please type your password below.</p>
                 </div>
                 <form class="form">
-                    <input class="pass_inp" type="password" name="pass" placeholder="Enter your password">
-                    <input class="sub_btn" type="submit" name="sub_btn" value="submit now">
+                    <input class="pass_inp" type="password" name="pass" placeholder="Enter your password" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <input class="sub_btn" type="submit" name="sub_btn" value="submit now" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                 </form>
             </div>
         </div>
@@ -167,11 +168,18 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/testimonials.js"></script>
+
+    <script>
+        AOS.init({
+            once: true,
+        });
+      </script>
 
 
 </body>

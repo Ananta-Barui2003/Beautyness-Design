@@ -17,8 +17,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.81;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
+  }
+  section {
+    overflow-x: hidden;
   }
   .h0 span,.h1 span,.h2 span,.h3 span,.h4 span,.h5 span,h1 span,h2 span,h3 span,h4 span,h5 span,.h0 i,.h1 i,.h2 i,.h3 i,.h4 i,.h5 i,h1 i,h2 i,h3 i,h4 i,h5 i,.h0 em,.h1 em,.h2 em,.h3 em,.h4 em,.h5 em,h1 em,h2 em,h3 em,h4 em,h5 em {
     font-family: 'Manrope', sans-serif;

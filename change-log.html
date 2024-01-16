@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change-Log</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -65,14 +66,14 @@
     <section class="banner_two">
         <div class="container">
             <div class="baner_cont">
-                <h5>TEMPLATE CHANGE</h5>
-                <h1>Changelog</h1>
+                <h5 data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">TEMPLATE CHANGE</h5>
+                <h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">Changelog</h1>
             </div>
         </div>
     </section>
     <section class="versions">
         <div class="container">
-            <div class="main_box">
+            <div class="main_box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <div class="vers_wrap">
                     <div class="left">
                         <span>V.1</span>
@@ -165,11 +166,18 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/testimonials.js"></script>
+
+    <script>
+        AOS.init({
+            once: true,
+        });
+      </script>
 
 </body>
 

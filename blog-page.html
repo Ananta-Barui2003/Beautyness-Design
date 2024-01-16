@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog-Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -65,15 +66,15 @@
     <section class="banner_two">
         <div class="container">
             <div class="baner_cont">
-                <h5>GET IN TOUCH WITH US</h5>
-                <h1>Articles & News</h1>
+                <h5 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">GET IN TOUCH WITH US</h5>
+                <h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">Articles & News</h1>
             </div>
         </div>
     </section>
     <section class="our_blog">
         <div class="container">
             <div class="row wraper">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                     <div class="image">
                         <a href="#"><img src="images/blog-img1.png" alt=""></a>
                     </div>
@@ -83,7 +84,7 @@
                         <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
                     <div class="image">
                         <a href="#"><img src="images/blog-img2.png" alt=""></a>
                     </div>
@@ -93,7 +94,7 @@
                         <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
                     <div class="image">
                         <a href="#"><img src="images/blog-img3.png" alt=""></a>
                     </div>
@@ -103,7 +104,7 @@
                         <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                     <div class="image">
                         <a href="#"><img src="images/blog-img4.png" alt=""></a>
                     </div>
@@ -113,7 +114,7 @@
                         <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                     <div class="image">
                         <a href="#"><img src="images/blog-img5.png" alt=""></a>
                     </div>
@@ -123,7 +124,7 @@
                         <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
                     <div class="image">
                         <a href="#"><img src="images/blog-img6.png" alt=""></a>
                     </div>
@@ -221,11 +222,18 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/testimonials.js"></script>
+
+    <script>
+        AOS.init({
+            once: true,
+        });
+      </script>
 
 
 </body>

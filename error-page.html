@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page-Error</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -65,23 +66,23 @@
     <section class="banner_two">
         <div class="container">
             <div class="baner_cont">
-                <h5>Page Not Found </h5>
-                <h1>404 Error Page</h1>
+                <h5 data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">Page Not Found </h5>
+                <h1 data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">404 Error Page</h1>
             </div>
         </div>
     </section>
     <section class="page_not">
         <div class="container">
             <div class="titel text-center">
-                <div class="error_img">
+                <div class="error_img" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                     <img src="images/404.png" alt="">
                 </div>
-                <h2>Page not Found!!!</h2>
-                <p>The page you are looking for doesn't exist. Please try searching for some other page, or return to
+                <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Page not Found!!!</h2>
+                <p data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">The page you are looking for doesn't exist. Please try searching for some other page, or return to
                     the website's homepage to find what you're looking for.
                 </p>
             </div>
-            <div class="buton text-center">
+            <div class="buton text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <a href="#">BACK TO HOME</a>
             </div>
         </div>
@@ -168,11 +169,18 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/testimonials.js"></script>
+
+    <script>
+        AOS.init({
+            once: true,
+        });
+      </script>
 
 
 </body>
