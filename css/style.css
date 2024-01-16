@@ -147,7 +147,20 @@ ul {
 /* ===============responsive-navbar end=============== */
 
 .header {
-    padding: 38px 0;
+    transition: 0.1s linear;
+    padding: 30px 0;
+}
+nav.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #518594;
+    box-shadow: 0 0 20px #518594cd;
+    z-index: 999;
+}
+nav.sticky .logo img {
+    filter: brightness(0) invert(1);
 }
 .header .wraper {
     max-width: 1800px;
@@ -183,10 +196,11 @@ ul {
     color: #7A9CA5;
     padding-right: 10px;
 }
-.header .right_part {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+nav.sticky .wraper .logo_cont .head_cont p {
+    color: #fff;
+}
+nav.sticky .wraper .logo_cont .head_cont i {
+    color: #fff;
 }
 .header .wraper .menu_bar {
     display: flex;
@@ -204,21 +218,35 @@ ul {
     position: relative;
     display: inline-block;
     cursor: pointer;
-
+    padding-bottom: 5px;
 }
 .dropdown .menu_titel {
     color: #555;
     font-size: 18px;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 60px;
+    transition: 0.6s;
+}
+nav.sticky .dropdown .menu_titel {
+    color: #fff;
+}
+nav.sticky .dropdown:hover .menu_titel {
+    color: #86c2d3;
 }
 .dropdown .menu_titel i {
     font-size: 15px;
+    transition: 0.4s;
 }
-  
+.dropdown:hover .menu_titel {
+    color: #518594;
+}
+.dropdown:hover .menu_titel i {
+    transform: rotate(180deg);
+}
 .drop_menu .dropdown-content {
     display: none;
     position: absolute;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
     background: #c7ecf5f0;
@@ -250,10 +278,19 @@ ul {
     position: relative;
     color: #555;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600;   
     line-height: 22px;
-    transform-origin: 0.6s;
-    padding-bottom: 5px;
+    transition: 0.6s;
+    padding-bottom: 10px;
+}
+nav.sticky .wraper .menu_bar .menu_item a {
+    color: #fff;
+}
+nav.sticky .wraper .menu_bar .menu_item a::after {
+    background: #86c2d3;
+}
+nav.sticky .wraper .menu_bar .menu_item a:hover {
+    color: #86c2d3;
 }
 .header .wraper .menu_bar .menu_item a:hover {
     color: #518594;
@@ -285,8 +322,23 @@ ul {
 .header .menu_bar .rest_btn .common-btn {
     padding: 16px 33px;
 }
+.sticky .menu_bar .rest_btn .common-btn {
+    background: #000;
+}
+.sticky .menu_bar .rest_btn .common-btn::before, .sticky .menu_bar .rest_btn .common-btn::after {
+    background: #d6edf3;
+}
+.sticky .menu_bar .rest_btn .common-btn:hover {
+    color: #252524;
+}
 .header .rest_btn a i {
     padding-right: 12px;
+}
+.sticky .menu_bar .socal_icon a {
+    color: #ffffff;
+}
+.sticky .menu_bar .socal_icon a:hover {
+    color: #86c2d3;
 }
 
 .banner {

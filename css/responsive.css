@@ -142,6 +142,9 @@
             align-items: center;
             justify-content: center;
         }
+        .sticky label .line {
+            background: #fff;
+        }
 
         .header .wraper {
             display: block;
@@ -149,11 +152,11 @@
         .header .wraper .menu_bar {
             display: block;
             position: fixed;
-            top: 110px;
+            top: 95px;
             left: -100%;
             width: 100%;
             height: 100vh;
-            background: #caeaf9;
+            background: #486d6d;
             z-index: 999;
             transition: all 0.2s linear;
             padding-top: 50px;
@@ -163,6 +166,9 @@
             padding: 10px 0;
             line-height: 45px;
         }
+        .dropdown .menu_titel {
+            color: #fff;
+        }
         .header .wraper .menu_bar .socal_icon {
             display: none;
         }
@@ -170,8 +176,12 @@
             font-size: 16px;
             font-weight: 800;
             line-height: 28px;
+            color: #fff;
             text-transform: uppercase;
             letter-spacing: 1.5px;
+        }
+        .header .wraper .menu_bar .menu_item a::after {
+            display: none;
         }
         .drop_menu .dropdown-content {
             left: -20px;
@@ -373,6 +383,7 @@
     }
 
     .discount {
+        overflow-y: hidden;
         padding: 45px 0;
     }
     .discount .wraper {
@@ -519,7 +530,7 @@
         line-height: 1.4;
     }
     .abt_about .wraper::before {
-        top: 50px;
+        top: 30px;
     }
 
     .our_expert {
@@ -627,6 +638,7 @@
     }
 
     .single_appoint {
+        overflow-y: hidden;
         padding: 45px 0;
     }
     .single_appoint .titel {
@@ -828,6 +840,7 @@
 
     /* ***************error-page start************** */
     .page_not {
+        overflow-y: hidden;
         padding: 100px 0;
     }
     .page_not .titel .error_img {
@@ -843,6 +856,7 @@
     /* ***************error-page end************** */
 
     .pass_form {
+        overflow-y: hidden;
         padding: 50px 0;
     }
     .pass_form .password .form .pass_inp::placeholder {
@@ -853,6 +867,7 @@
     }
 
     .versions {
+        overflow-y: hidden;
         padding: 50px 0;
     }
     .versions .main_box .vers_wrap {
@@ -1020,9 +1035,10 @@
     }
     .abt_about .wraper::before {
         height: 100%;
+        bottom: 0;   
     }
     .abt_about .wraper {
-        row-gap: 35px;
+        row-gap: 30px;
     }
     .abt_about .wraper .right_box {
         text-align: center;
@@ -1297,6 +1313,31 @@
 
 /* ======================575px start==================== */
 @media only screen and (max-width: 575px) {
+    .common-btn {
+        font-size: 12px !important;
+        line-height: 1 !important;
+        padding: 16px 28px !important;
+    }
+    .category .wraper .inner .catg_detl a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 12px 35px;
+    }
+    .our_service .wraper .right_iner .buton a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 16px 26px;
+    }
+    .our_blog .more_btn a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 16px 30px;
+    }
+    .share_us .buton a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 16px 50px;
+    }
     .membership .memb_wrap .card_box {
         flex-direction: column-reverse;
     }
@@ -1323,6 +1364,21 @@
 
     .single_expert .wraper .left_item img {
         height: auto;
+    }
+    .single_expert .wraper .right_item .bottom .buton a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 16px 26px;
+    }
+    .location .wraper .locat_detl .buton a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 16px 26px;
+    }
+    .page_not .buton a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 18px 36px;
     }
 
     .get_touch .wraper .touch_left .touch_image img {
