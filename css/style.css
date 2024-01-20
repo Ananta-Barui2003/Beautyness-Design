@@ -7,6 +7,7 @@
   html {
      box-sizing: border-box;
      scroll-behavior: smooth;
+     overflow-x: hidden;
   }
   
   body {
@@ -123,6 +124,102 @@ ul {
     height: 50%;
 }
 
+/* [[[[[[[[[[[[[[ mouse cursor css start ]]]]]]]]]]]]]]] */
+.cursor {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    background: url(../images/site-fav-logo2.jpeg) no-repeat center center;
+    background-size: cover;
+    pointer-events: none;
+    z-index: 1010;
+    border: 2px solid #518594;
+    transition: all 0.2s ease-out;
+    animation: moveCursor1 .5s infinite alternate;
+}
+
+.expand {
+    /* background: transparent; */
+    animation: moveCursor2 .5s forwards;
+    border: 2px solid #F505F9;
+}
+
+@keyframes moveCursor1 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.8);
+    }
+}
+
+@keyframes moveCursor2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.70;
+    }
+}
+/* [[[[[[[[[[[[[[ mouse cursor css end ]]]]]]]]]]]]]]] */
+
+
+/* #Progress
+================================================== */
+.progress-wrap {
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50%;
+	box-shadow: inset  0 0 0 3px rgba(0,0,0,0.1);
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+.progress-wrap svg path { 
+	fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+	stroke: #518594; /* --- Lijn progres kleur --- */
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ed430f;
+    font-size: 20px;
+}
+/* --------------click to top css---------------- */
 
 /* ===============responsive-navbar start=============== */
 #check {
@@ -148,11 +245,12 @@ ul {
 /* ===============responsive-navbar end=============== */
 
 .header {
-    transition: 0.1s linear;
+    position: relative;
+    transition: 0.3s linear ease-in-out;
     padding: 30px 0;
 }
 nav.sticky {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -192,6 +290,9 @@ nav.sticky .logo img {
     line-height: 26px;
     letter-spacing: -0.18px;
 }
+.header .wraper .logo_cont .head_cont:hover p {
+    text-decoration: underline;
+}
 .header .wraper .logo_cont .head_cont i {
     font-size: 18px;
     color: #7A9CA5;
@@ -230,9 +331,6 @@ nav.sticky .wraper .logo_cont .head_cont i {
 }
 nav.sticky .dropdown .menu_titel {
     color: #fff;
-}
-nav.sticky .dropdown:hover .menu_titel {
-    color: #86c2d3;
 }
 .dropdown .menu_titel i {
     font-size: 15px;
@@ -288,10 +386,10 @@ nav.sticky .wraper .menu_bar .menu_item a {
     color: #fff;
 }
 nav.sticky .wraper .menu_bar .menu_item a::after {
-    background: #86c2d3;
+    background: #fff;
 }
 nav.sticky .wraper .menu_bar .menu_item a:hover {
-    color: #86c2d3;
+    color: #fff;
 }
 .header .wraper .menu_bar .menu_item a:hover {
     color: #518594;
@@ -340,7 +438,7 @@ nav.sticky .wraper .menu_bar .menu_item a:hover {
     color: #ffffff;
 }
 .sticky .menu_bar .socal_icon a:hover {
-    color: #86c2d3;
+    color: #fff;
 }
 
 .banner {
@@ -1210,11 +1308,35 @@ nav.sticky .wraper .menu_bar .menu_item a:hover {
     margin-bottom: 21px;
 }
 .footer .wraper .ftr_item .menu_item li a {
+    position: relative;
     color: #FFF;
     font-size: 17px;
     font-weight: 500;
     line-height: 34px;
     letter-spacing: -0.17px;
+    transition: 0.6s;
+}
+.footer .wraper .ftr_item .menu_item li a:hover {
+    color: #6eb6ca;
+}
+.footer .wraper .ftr_item .menu_item li a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: #6eb6ca;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.footer .wraper .ftr_item .menu_item li a:hover::before {
+    visibility: visible;
+    opacity: 1;
+    left: -25px;
 }
 .footer .wraper .ftr_item .wrap_box {
     display: flex;
@@ -1240,6 +1362,9 @@ nav.sticky .wraper .menu_bar .menu_item a:hover {
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.17px;
+}
+.footer .wraper .ftr_item .wrap_box .right a:hover {
+    text-decoration: underline;
 }
 .footer .wraper .ftr_item .wrap_box .right span {
     display: block;
@@ -2250,6 +2375,11 @@ nav.sticky .wraper .menu_bar .menu_item a:hover {
     height: 45px;
     border: 1px solid #7A9CA5;
     color: #111E22;
+    transition: 0.6s;
+}
+.collection .wraper .user_box .socal_acc .s_icon li a:hover {
+    background: #518594;
+    color: #fff;
 }
 .collection .wraper .user_box .socal_acc .s_icon li {
     padding-left: 10px;

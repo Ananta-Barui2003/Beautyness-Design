@@ -129,6 +129,18 @@
 
 /* ======================991px start==================== */
 @media only screen and (max-width: 991px) {
+    /* mouse cursor css */
+    .cursor, .expand {
+        display: none;
+    }
+
+    /* click to top */
+    .progress-wrap {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+        bottom: 15px;
+    }
 
     /* ===============mobail-nav============== */
         .header .wraper .logo_cont .head_cont {
@@ -265,6 +277,7 @@
     }
 
     .about_us {
+        overflow-y: hidden;
         padding: 45px 0;
         margin-top: 45px;
     }
